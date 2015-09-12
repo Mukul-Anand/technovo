@@ -31,8 +31,8 @@
           <div class="brand">
             <img src="images/logo.png"/>
           </div>
-          <p>For any enquiry call us at :</p>
-          <a href="callto:#" class="fa-phone">011-65158900 </a>
+          <p>For any enquiry call us at</p>
+          <a href="callto:#" class="fa-phone">&#9742; 011-65158900 </a>
         </div>
         <div id="stuck_container" class="stuck_container">
           <div class="container">
@@ -40,7 +40,7 @@
               <ul data-type="navbar" class="sf-menu">
                 <li class="active"><a href="./">Home</a>
                 </li>
-                <li><a href="index-1.html">About Us</a>
+                <li><a href="index-2.html">Courses</a>
                   <ul>
                     <li><a href="#">Lorem ipsum dolor</a></li>
                     <li><a href="#">Conse ctetur adipisicing</a></li>
@@ -55,13 +55,13 @@
                     <li><a href="#">Ut enim ad minim</a></li>
                   </ul>
                 </li>
-                <li><a href="index-2.html">Courses</a>
+                <li><a href="index-1.html">About Us</a>
                 </li>
                 <li><a href="index-3.html">Placement</a>
                 </li>
                 <li><a href="index-3.html">Blog</a>
                 </li>
-                <li><a href="index-3.html">Franchise</a>
+                <li><a href="index-3.html">Student Zone</a>
                 </li>
                 <li><a href="index-4.html">Contact Us</a>
                 </li>
@@ -142,7 +142,7 @@
                     <div class="icon fa-comments"></div>
                   </div>
                   <div class="box_cnt__no-flow">
-                    <h3><a href="#">Incididunt ut labore et dolore</a></h3>
+                    <h3><a href="#">Java Training</a></h3>
                     <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolor.</p>
                   </div>
                 </div>
@@ -152,7 +152,7 @@
                     <div class="icon fa-calendar-o"></div>
                   </div>
                   <div class="box_cnt__no-flow">
-                    <h3><a href="#">Incididunt ut labore et dolore</a></h3>
+                    <h3><a href="#">J2EE Training</a></h3>
                     <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolor.</p>
                   </div>
                 </div>
@@ -163,7 +163,7 @@
                     <div class="icon fa-group"></div>
                   </div>
                   <div class="box_cnt__no-flow">
-                    <h3><a href="#">Incididunt ut labore et dolore</a></h3>
+                    <h3><a href="#">.NET Training</a></h3>
                     <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolor.</p>
                   </div>
                 </div>
@@ -173,8 +173,8 @@
                     <div class="icon fa-thumbs-up"></div>
                   </div>
                   <div class="box_cnt__no-flow">
-                    <h3><a href="#">Incididunt ut labore et dolore</a></h3>
-                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolor.</p>
+                    <h3><a href="#">PHP/MYSQL Training</a></h3>
+                    <p>Today java is used by 5 million software developer's and operates in 2.5 billion devices including PC's, moblile phone's, smart cards, web cams, games, market simulators, and car navigation devices,just to name a few. </p>
                   </div>
                 </div>
               </li>
@@ -186,7 +186,7 @@
             <div class="row">
               <div class="grid_4">
                 <h2>About</h2><img src="images/page-1_img01.jpg" alt="">
-                <p>TECHNOVO offers a wide spectrum of IT technical courses and application courses designed to suit every skill level, as well as the ability to consult directly with organizations to tailor made learning plans. Our exposure have a wide appeal and are applicable those in varied positions including network administrators, systems analysts, systems architects, test engineers, software developers, help desk staff, IT managers, senior executives, administrative assistants and business professionals.</p><a href="#" class="btn">Read more</a>
+                <p class="about">TECHNOVO offers a wide spectrum of IT technical courses and application courses designed to suit every skill level, as well as the ability to consult directly with organizations to tailor made learning plans. Our exposure have a wide appeal and are applicable those in varied positions including network administrators, systems analysts, systems architects, test engineers, software developers, help desk staff, IT managers, senior executives, administrative assistants and business professionals.</p><a href="#" class="btn">Read more</a>
               </div>
               <div class="grid_4">
                 <h2>Our Courses</h2>
@@ -205,26 +205,14 @@
               </div>
               <div class="grid_4">
                 <div class="info-box">
-                  <h2 class="fa-comment">Help center</h2>
-                  <hr>
-                  <h3>Ask professionals:</h3>
-                  <dl>
-                    <dt>Monday - Friday:</dt>
-                    <dd>8am-7pm</dd>
-                  </dl>
-                  <dl>
-                    <dt>Saturday:</dt>
-                    <dd>8am-5pm</dd>
-                  </dl>
-                  <dl>
-                    <dt>Sunday:</dt>
-                    <dd>1pm-5pm</dd>
-                  </dl>
-                  <hr>
-                  <h3>24/7 Online Support:</h3>
-                  <dl>
-                    <dt>800-2345-6789</dt>
-                  </dl>
+                  <h2 class="fa-comment">Enquiry Form</h2><hr
+                  <form action="submitformenquiry.php">
+                  <input type="text" placeholder="Enter Your Name" name="name" required><br>
+                  <input type="text" placeholder="Enter Your Phone Number" name="phone" required><br>
+                  <input type="text" placeholder="Enter Your Email" name="email" required><br>
+                  <textarea rows="" cols="" placeholder="Description" class="rows" name="desc" required></textarea><br>
+                  <input type="submit" value="SUBMIT">
+                  </form>
                 </div>
                 <div class="owl-carousel">
                   <div class="item">
@@ -292,14 +280,18 @@
                     <div class="icon2 fa-map-marker"></div>
                   </div>
                   <div class="box_cnt__no-flow">
-                    <address>4578 Marmora Road,Glasgow<br/> D04 89GR</address>
+                    <address>
+                      A-4, Ground Floor, Patel garden<br>
+                      Opp. Metro Piller No. 787<br/>
+                      Delhi NCR, India
+                    </address>
                   </div>
                 </div>
                 <div class="box">
                   <div class="box_aside">
                     <div class="icon2 fa-envelope"></div>
                   </div>
-                  <div class="box_cnt__no-flow"><a href="mailto:#">info@demolink.org</a></div>
+                  <div class="box_cnt__no-flow"><a href="mailto:#">info@technovo.co.in</a></div>
                 </div>
               </li>
               <li class="grid_4">
@@ -307,7 +299,7 @@
                   <div class="box_aside">
                     <div class="icon2 fa-phone"></div>
                   </div>
-                  <div class="box_cnt__no-flow"><a href="callto:#">800-2345-6789</a></div>
+                  <div class="box_cnt__no-flow"><a href="callto:#">011-65158900</a></div>
                 </div>
                 <div class="box">
                   <div class="box_aside">
@@ -335,7 +327,7 @@
         </section>
         <section>
           <div class="container">
-            <div class="copyright">Business Company © <span id="copyright-year"></span>.&nbsp;&nbsp;<a href="index-5.html">Privacy Policy</a>More Business Website Templates at <a rel="nofollow" href="http://www.templatemonster.com/category/business-web-templates/" target="_blank">TemplateMonster.com</a>
+            <div class="copyright">TECHNOVO © <span id="copyright-year"></span>.&nbsp;&nbsp;<a href="index-5.html">Privacy Policy</a>
             </div>
           </div>
         </section>
